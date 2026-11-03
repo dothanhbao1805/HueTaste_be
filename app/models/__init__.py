@@ -1,0 +1,27 @@
+# Import mọi model ở đây để Base.metadata biết đầy đủ bảng (Alembic autogenerate, tests).
+from app.models.anh_dia_diem import AnhDiaDiem  # noqa: F401
+from app.models.anh_mon_an import AnhMonAn  # noqa: F401
+from app.models.bao_cao import BaoCao  # noqa: F401
+from app.models.che_do_an import CheDoAn  # noqa: F401
+from app.models.che_do_an_nguoi_dung import CheDoAnNguoiDung  # noqa: F401
+from app.models.chi_tiet_bao_cao import ChiTietBaoCao  # noqa: F401
+from app.models.cuoc_tro_chuyen import CuocTroChuyen  # noqa: F401
+from app.models.danh_gia import DanhGia  # noqa: F401
+from app.models.danh_muc_mon_an import DanhMucMonAn  # noqa: F401
+from app.models.danh_sach_yeu_thich import DanhSachYeuThich  # noqa: F401
+from app.models.dia_diem import DiaDiem  # noqa: F401
+from app.models.goi_y import GoiY  # noqa: F401
+from app.models.lich_su_scan import LichSuScan  # noqa: F401
+from app.models.mon_an import MonAn  # noqa: F401
+from app.models.mon_an_che_do_an import MonAnCheDoAn  # noqa: F401
+from app.models.mon_an_dia_diem import MonAnDiaDiem  # noqa: F401
+from app.models.mon_an_nguyen_lieu import MonAnNguyenLieu  # noqa: F401
+from app.models.mon_an_so_thich import MonAnSoThich  # noqa: F401
+from app.models.ngu_canh import NguCanh  # noqa: F401
+from app.models.nguoi_dung import NguoiDung  # noqa: F401
+from app.models.nguyen_lieu import NguyenLieu  # noqa: F401
+from app.models.nhu_cau_theo_ngay import NhuCauTheoNgay  # noqa: F401
+from app.models.so_thich import SoThich  # noqa: F401
+from app.models.so_thich_nguoi_dung import SoThichNguoiDung  # noqa: F401
+from app.models.tin_nhan import TinNhan  # noqa: F401
+from app.models.token_dat_lai_mat_khau import TokenDatLaiMatKhau  # noqa: F401
